@@ -1,0 +1,77 @@
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contentch {
+      flex-direction: column; /* Stack cards vertically on small screens */
+      align-items: center; /* Center align cards */
+    }
+  
+    .cardch {
+      width: 90%; /* Make cards take more width on small screens */
+    }
+  
+    .text-content {
+      text-align: center; /* Center text content */
+    }
+  
+    .media-content {
+      margin-top: 20px; /* Add margin above media content */
+    }
+    .titlech h1 {
+        font-size: 24px; /* Smaller font size for mobile */
+      }
+    
+      .titlech span {
+        font-size: 26px; /* Slightly larger font for emphasis */
+      }
+    
+      .text-content h1 {
+        font-size: 20px; /* Smaller heading for text content */
+      }
+    
+      .text-content h2 {
+        font-size: 18px; /* Smaller subheading for text content */
+      }
+    
+      .text-content p {
+        font-size: 14px; /* Smaller paragraph text */
+      }
+    
+      .cardch h2 {
+        font-size: 18px; /* Smaller heading for cards */
+      }
+    
+      .cardch p {
+        font-size: 12px; /* Smaller paragraph text for cards */
+      }
+  }
+
+@media (max-width: 576px) {
+    .benefites {
+      margin: 15px 0; /* Adjust spacing on mobile */
+    }
+  
+    .containercrm {
+      padding: 10px; /* Less padding on mobile */
+    }
+  
+    .text-contents h1 {
+      font-size: 20px; /* Smaller title font size */
+    }
+  
+    .text-contents h2 {
+      font-size: 18px; /* Adjust h2 size for mobile */
+    }
+
+    .text-contents p {
+      font-size: 12px; /* Smaller paragraph text */
+    }
+    .custom-text-heading{
+      font-size: 24px!important;
+      font-weight: 400!important;
+    }
+    .responsive-img{
+      height: 150px!important;
+      width: 150px!important;
+    }
+  }

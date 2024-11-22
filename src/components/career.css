@@ -1,0 +1,199 @@
+.whatsapp-button {
+    margin-bottom:60px;
+        margin-left: 200px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px; /* Adjust size as needed */
+        height: 50px; /* Same as width to make it a perfect circle */
+        background-color: #25d366; /* WhatsApp green color */
+        color: #fff;
+        border: none;
+        border-radius: 50%; /* This creates a circle */
+        text-decoration: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: Add shadow for depth */
+      }
+  
+      .whatsapp-button:hover {
+        background-color: #128c7e; /* Change color on hover */
+      }
+  
+      /* Adjust the icon size */
+      .fa-whatsapp {
+        font-size: 34px;
+      }
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bg {
+        /* Replace the URL with the path to your background image */
+        background-image: url("background.html");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .content {
+        color: black;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 20px;
+      }
+      h2 {
+        text-align: center;
+        color: #dc3545;
+        margin-bottom: 20px;
+        text-decoration: underline;
+      }
+      .content p,
+      .content ul,
+      .content li {
+        font-size: 1.2em;
+      }
+      .content ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .content ul li {
+        margin-bottom: 10px;
+      }
+      .note {
+        color: #ff6347;
+        font-size: 1.2em;
+      }
+  
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      .bgs {
+        padding: 20px;
+      }
+      .contents-container {
+        margin: auto;
+        max-width: 800px;
+      }
+      .contents-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .contents-table th,
+      .contents-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      .contents-table th {
+        background-color: #f2f2f2;
+      }
+      .contents-table td ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      .contents-table td ul li {
+        padding: 20px 15px;
+        border-bottom: 1px solid hwb(0 87% 13% / 0.61);
+      }
+      .contents-table td ul li:last-child {
+        border-bottom: none;
+      }
+      .contents-table td ul li span {
+        float: right;
+        color: green;
+      }
+  
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      .bgs {
+        background-image: url("background.html"); /* Replace with your background image */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .contents-container {
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+  
+        color: black;
+        padding: 20px;
+      }
+      .contents-table {
+        width: 100%;
+      }
+      .contents-table th,
+      .content-table td {
+        padding: 20px;
+        text-align: left;
+        vertical-align: top;
+      }
+      .contents-table th {
+        background-color: hwb(0 0% 0% / 0.733);
+      }
+      .contents-table ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .contents-table ul li {
+        margin-bottom: 10px;
+        font-size: 0.5em;
+      }
+      .contents-table ul li span {
+        color: limegreen;
+        font-weight: bold;
+      }
+      .contents-table h3 {
+        color: white;
+        text-decoration: underline;
+      }
+      button:hover {
+        color: #00800098;
+      }
+  
+      .table td {
+        vertical-align: middle;
+      }
+      .badge-success {
+        display: inline-block;
+        padding: 0.25em 0.4em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: 0.25rem;
+        color: #fff;
+        background-color: #28a745;
+      }
+  
+      .table {
+        background-color: hsl(249, 65%, 12%);
+        color: white;
+      }
+  
+      .card-body {
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.6
+        ); /* Black background with transparency */
+        color: white; /* White text color */
+      }
+  
+      .table td {
+        vertical-align: middle;
+      }
